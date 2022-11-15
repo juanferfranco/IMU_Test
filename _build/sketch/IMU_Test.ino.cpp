@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 1 "/workspaces/IMU_Test/IMU_Test.ino"
 #define M5STACK_MPU6886
 #include <M5Core2.h>
 #include "password.h"
@@ -20,17 +20,17 @@ float accZ = 0.0F;
 
 float offsetArr[3] = {0.0F};
 
-#line 21 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 21 "/workspaces/IMU_Test/IMU_Test.ino"
 void getOffset(float *offset);
-#line 29 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 29 "/workspaces/IMU_Test/IMU_Test.ino"
 void drawGrid();
-#line 36 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 36 "/workspaces/IMU_Test/IMU_Test.ino"
 void drawSpot(int ax, int ay);
-#line 52 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 52 "/workspaces/IMU_Test/IMU_Test.ino"
 void setup();
-#line 80 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 80 "/workspaces/IMU_Test/IMU_Test.ino"
 void loop();
-#line 21 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+#line 21 "/workspaces/IMU_Test/IMU_Test.ino"
 void getOffset(float *offset) {
   float offsetX, offsetY, offsetZ;
   M5.IMU.getAccelData(&offsetX, &offsetY, &offsetZ);
@@ -128,3 +128,4 @@ void loop() {
   }
 }
 
+// python -m pip install pyserial

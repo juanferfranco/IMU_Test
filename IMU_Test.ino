@@ -114,3 +114,5 @@ void loop() {
     }
   }
 }
+
+// python -m pip install pyserial

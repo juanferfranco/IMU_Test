@@ -1,14 +1,14 @@
-# 1 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+# 1 "/workspaces/IMU_Test/IMU_Test.ino"
 
-# 3 "/home/mint/Downloads/IMU_Test/IMU_Test.ino" 2
-# 4 "/home/mint/Downloads/IMU_Test/IMU_Test.ino" 2
-# 5 "/home/mint/Downloads/IMU_Test/IMU_Test.ino" 2
-# 6 "/home/mint/Downloads/IMU_Test/IMU_Test.ino" 2
-# 7 "/home/mint/Downloads/IMU_Test/IMU_Test.ino" 2
+# 3 "/workspaces/IMU_Test/IMU_Test.ino" 2
+# 4 "/workspaces/IMU_Test/IMU_Test.ino" 2
+# 5 "/workspaces/IMU_Test/IMU_Test.ino" 2
+# 6 "/workspaces/IMU_Test/IMU_Test.ino" 2
+# 7 "/workspaces/IMU_Test/IMU_Test.ino" 2
 
 
 
-# 9 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+# 9 "/workspaces/IMU_Test/IMU_Test.ino"
 WiFiUDP udpDevice;
 uint16_t localUdpPort = 3302; // Puerto de escucha del propio sensor
 uint16_t UDPPort = 4000; // Puerto al que enviará la información el sensor.
@@ -68,7 +68,7 @@ void setup() {
     M5.Lcd.setTextSize(2);
 
   */
-# 63 "/home/mint/Downloads/IMU_Test/IMU_Test.ino"
+# 63 "/workspaces/IMU_Test/IMU_Test.ino"
   Serial.begin(115200);
   Serial.print("Connecting to ");
   Serial.println(ssid);
@@ -123,3 +123,5 @@ void loop() {
     }
   }
 }
+
+// python -m pip install pyserial
