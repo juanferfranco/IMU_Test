@@ -1,0 +1,6 @@
+{
+    "sketch": "IMU_Test.ino",
+    "configuration": "PSRAM=enabled,PartitionScheme=default,CPUFreq=240,UploadSpeed=921600,DebugLevel=none,EraseFlash=none",
+    "board": "esp32:esp32:m5stack-core2",
+    "output": "_build"
+}
